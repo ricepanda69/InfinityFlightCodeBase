@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4878063814296132774}
   - component: {fileID: 4878063814297230950}
   - component: {fileID: 4679103515377889265}
+  - component: {fileID: 1521253500411376}
   m_Layer: 0
   m_Name: balloon-stripes
   m_TagString: Untagged
@@ -106,3 +107,28 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: a5a246eb6b4fbc1469382f45e0e62aa8, type: 3}
+--- !u!205 &1521253500411376
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4878063814299156646}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 1
+  m_FadeMode: 1
+  m_AnimateCrossFading: 1
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.0017
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4878063814297230950}
+  m_Enabled: 1
